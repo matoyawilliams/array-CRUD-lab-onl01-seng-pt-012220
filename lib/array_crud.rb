@@ -1,35 +1,25 @@
-def create_an_empty_array
-  
-end
+def 
+  expected = ["love", "live", "laugh"]
+end 
 
-def create_an_array
-  
-end
+expected << "run" 
 
-def add_element_to_end_of_array(array, element)
-  
-end
+puts expected.inspect 
 
-def add_element_to_start_of_array(array, element)
-  
-end
+love = expected.pop 
 
-def remove_element_from_end_of_array(array)
-  
-end
+puts expected.inspect 
 
-def remove_element_from_start_of_array(array)
-  
-end
+love = expected.shift
 
-def retrieve_element_from_index(array, index_number)
-  
-end
+puts expected.inspect 
 
-def retrieve_first_element_from_array(array)
-  
-end
+expected.index("laugh")
 
-def retrieve_last_element_from_array(array)
-  
-end
+expected.first 
+
+expected.last 
+
+
+
+
