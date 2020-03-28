@@ -30,5 +30,7 @@ def retrieve_first_element_from_index
   array[0]
 end
 
-def 
+def retrieve_last_element_from_index(array)
+  array[3]
+end   
   
