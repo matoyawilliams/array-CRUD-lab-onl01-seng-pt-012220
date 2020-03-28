@@ -6,5 +6,5 @@ create_an_array = ["apple", "banana", "orange"]
 
 create_an_array << "strawberry"
 
-puts create_an_array.inspect
+
 
