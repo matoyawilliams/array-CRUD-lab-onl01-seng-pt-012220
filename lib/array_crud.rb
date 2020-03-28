@@ -1,25 +1,10 @@
-def 
-  expected = ["love", "live", "laugh"]
-end 
+def create_an_empty_array 
+  []
+end
 
-expected << "run" 
-
-puts expected.inspect 
-
-love = expected.pop 
-
-puts expected.inspect 
-
-love = expected.shift
-
-puts expected.inspect 
-
-expected.index("laugh")
-
-expected.first 
-
-expected.last 
-
-
-
+def add_element_to_end_of_array
+  [1,2,3,4]
+  <<[5]
+end
+end
 
