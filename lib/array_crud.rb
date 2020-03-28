@@ -7,8 +7,4 @@ def create_an_array
 end 
 
 def add_element_to_end_of_array
-  fruits = ["apple", "banana", "orange", "strawberry"]
-  
-  add_element_to_end_of_array.push("kiwi")
-end
 
